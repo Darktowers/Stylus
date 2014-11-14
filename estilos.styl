@@ -1,0 +1,22 @@
+@import 'nib/vendor'
+
+@import 'nib/gradients'
+
+vendor-prefixes = o ms moz webkit official
+
+body 
+   background blue
+  
+.btn
+	border-radius 5px
+	background red
+	
+	&.yellow
+		background yellow
+	&.blue
+		background blue
+.padre
+	background linear-gradient(top, white, black);
+	padding 200px
+	.hijo
+	    font-size 80px
